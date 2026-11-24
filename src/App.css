@@ -1,3 +1,25 @@
-.weather-app {
-    color: yellow;
+textarea,
+input {
+  font: inherit;
 }
+
+textarea::placeholder {
+    font-size: 12px;
+    line-height: 40px;
+    padding-left: 19px;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px 0, rgba(0,0,0,0.15);
+}
+
+.search-bar {
+    margin: 229px;
+    width: 400px;
+    border-radius: 12px;
+    resize: none;
+}
+

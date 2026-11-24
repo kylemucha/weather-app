@@ -1,9 +1,11 @@
-import "./App.css"
+import "./App.css";
 
 export default function App() {
-  return(
-    <main className="weather-app">
-      <h1>Weather App</h1>
+  return (
+    <main>
+      <div className="search-bar-container">
+        <textarea className="search-bar"name="searchBar" placeholder="Search for a city..."/>
+      </div>
     </main>
-  )
+  );
 }
