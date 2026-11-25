@@ -18,7 +18,7 @@ textarea::placeholder {
 
 .search-bar {
     margin: 229px;
-    width: 400px;
+    min-width: 400px;
     border-radius: 12px;
     resize: none;
 }
