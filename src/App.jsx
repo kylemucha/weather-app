@@ -3,8 +3,8 @@ import "./App.css";
 export default function App() {
   return (
     <main>
-      <div className="search-bar-container">
-        <textarea className="search-bar"name="searchBar" placeholder="search for a city..."/>
+      <div className="main-content">
+        <input className="search-bar" type="text" placeholder="search for a city..."/>
       </div>
     </main>
   );
