@@ -1,3 +1,8 @@
+header {
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
 input {
   min-width: 400px;
   max-width: 400px;
@@ -12,6 +17,20 @@ input {
 input::placeholder {
   color: #8e8c8c;
   font-size: 12px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand-icon {
+    width: 28px;
+    height: auto;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-right: 8px;
+    
 }
 
 .main-content {
