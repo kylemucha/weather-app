@@ -9,6 +9,11 @@ input {
   border: none;
 }
 
+input::placeholder {
+  color: #8e8c8c;
+  font-size: 12px;
+}
+
 .main-content {
   display: flex;
   justify-content: center;
