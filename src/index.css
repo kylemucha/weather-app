@@ -4,16 +4,13 @@
 
 body {
   margin: 0;
-  font-family: "Google Sans", sans-serif;
+  font-family: "Google Sans Flex", sans-serif;
+  font-weight: 400;
   background-color: #363636;
 }
 
+input,
 button,
-input {
-  font: inherit;
-}
-
-textarea,
-input {
+textarea {
   font: inherit;
 }

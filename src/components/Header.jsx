@@ -1,4 +1,5 @@
 import favicon from "../images/favicon.png";
+import "../App.css";
 
 export default function Header() {
   return (

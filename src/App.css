@@ -1,9 +1,83 @@
 header {
-    font-size: 28px;
-    color: #FFFFFF;
+  font-size: 28px;
+  color: #ffffff;
 }
 
 input {
+  outline: none;
+  border: none;
+  width: 400px;
+}
+
+input::placeholder {
+  color: #8e8c8c;
+  font-size: 12px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-icon {
+  width: 28px;
+  height: auto;
+  flex-shrink: 0;
+  margin-left: 32px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+
+.welcome-message {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.welcome-message-header {
+  display: flex;
+  font-size: 48px;
+  align-items: center;
+}
+
+.welcome-message-header img {
+  width: 56px;
+  height: 56px;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.welcome-message-body {
+  color: #ababab;
+}
+
+.welcome-message-footer {
+  color: #8e8c8c;
+}
+
+.welcome-message-brand {
+  font-size: 56px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.search-bar {
+  display:flex;
+  align-items: center;
+  background-color: #ffffff;
   min-width: 400px;
   max-width: 400px;
   height: 48px;
@@ -14,28 +88,8 @@ input {
   border: none;
 }
 
-input::placeholder {
-  color: #8e8c8c;
-  font-size: 12px;
-}
-
-.brand {
-    display: flex;
-    align-items: center;
-}
-
-.brand-icon {
-    width: 28px;
-    height: auto;
-    flex-shrink: 0;
-    margin-left: 32px;
-    margin-right: 8px;
-    
-}
-
-.main-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 274px;
+.search-bar img {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
 }
